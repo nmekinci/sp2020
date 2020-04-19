@@ -118,7 +118,7 @@ nav {
 /*----PARALAX CODE AREA----*/
 #Paralax {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-    url("../images/paralaxarea.jpg");
+    url("images/paralaxarea.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: center;
@@ -213,7 +213,7 @@ nav {
 
 #info-bg {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
-    url("../images/background.jpg");
+    url("images/background.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-blend-mode: center;
