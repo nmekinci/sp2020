@@ -1,0 +1,15 @@
+TODO
+
+0. Find an inspiration for the website
+1. Change colors
+2. Change font size
+3. Create hierarchy
+    - decide what is the most important
+    - decide what is the least important
+4. Add title
+5. Add grid from Bootstrap
+6. Read a book Dont make me think: http://www.scottsdevelopers.com/dont-make-me-think-revisited.pdf
+7. New content 
+    a. Description of the festival
+    b. Things to do in the festival
+    c. Add new images: names of the artist
