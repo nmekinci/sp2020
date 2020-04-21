@@ -13,3 +13,6 @@ TODO
     a. Description of the festival
     b. Things to do in the festival
     c. Add new images: names of the artist
+
+
+line up kisminda listedeki gruplar icin foto galery olustur ve her grup icin id ile yonlendir.
