@@ -86,12 +86,12 @@ nav {
 
 /*----Count-Down CODE AREA----*/
 .count-down {
-  background-color: #8EFF5E;
-  border: 3px solid #ff4a7a;
-  border-radius: 30px;
-  color: #7E1EEB;
+  /*background-color: #8EFF5E;*/
+  /*border: 3px solid #ff4a7a;*/
+  /*border-radius: 30px;*/
+  color: #8EFF5E;
   font-size: 20px;
-  opacity: .7;
+  opacity: .6;
   position: fixed;
   left: 20px;
   top: 400px;
@@ -103,12 +103,18 @@ nav {
   flex-wrap: nowrap;
   align-items: center;
   z-index: 100;
+  transition: all ease .3s;
 }
 #time {
   color: #ff4a7a;
   font-size: 34px;
   font-weight: 900;
 }
+.count-down:hover {
+    opacity: 1.0;
+    letter-spacing: 5px;
+}
+
 /*----Count-Down CODE AREA----*/
 
 
@@ -359,7 +365,7 @@ nav {
 
 footer {
     width: auto;
-    height: 300px;
+    height: auto;
     background-color: #4aff9e;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -386,7 +392,22 @@ footer p {
 /*----- FOOTER CODE AREA-----*/
 
 
+/*---- MEDIA QUERY 600PX CODE AREA --*/
+@media screen and (max-width: 600px)
+{
+    footer div {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    footer {
+        width: auto;
+        height: auto;
+    }
+}
 
+
+/*---- MEDIA QUERY 600PX CODE AREA --*/
 
 
 /*---- TOP BUTTON CODE AREA --*/
