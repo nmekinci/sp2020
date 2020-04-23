@@ -393,7 +393,7 @@ footer p {
 
 
 /*---- MEDIA QUERY 600PX CODE AREA --*/
-@media screen and (max-width: 600px)
+@media (max-width: 600px)
 {
     footer div {
         display: flex;
