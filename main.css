@@ -68,20 +68,45 @@ nav {
     display: flex;
     justify-content: flex-end;
     margin-top: -180px;
+    margin-right: 100px;
 }
 .date {
-    padding-right: 170px;
-    padding-top: 5px;
     font-size: 25px;
     color: #8EFF5E;
     font-family: 'Gloria Hallelujah', cursive;
-
-    /*border: 2px solid red;*/
 }
 /*----NAV BAR CODE AREA----*/
 
 
+/*---- MEDIA QUERY 600PX CODE AREA --*/
+@media (max-width: 600px)
+{
+    footer div {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    footer {
+        width: auto;
+        height: auto;
+    }
+    
+    
+    .logo img {
+        width: 200px;
+    }
+    
+}
+@media (max-width: 1200px){
+    .date-flex {
+        visibility: hidden;
+    }
+    .ticket img {
+        visibility: hidden;
+    }    
+}
 
+/*---- MEDIA QUERY 600PX CODE AREA --*/
 
 
 /*----Count-Down CODE AREA----*/
@@ -392,22 +417,7 @@ footer p {
 /*----- FOOTER CODE AREA-----*/
 
 
-/*---- MEDIA QUERY 600PX CODE AREA --*/
-@media (max-width: 600px)
-{
-    footer div {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-    }
-    footer {
-        width: auto;
-        height: auto;
-    }
-}
 
-
-/*---- MEDIA QUERY 600PX CODE AREA --*/
 
 
 /*---- TOP BUTTON CODE AREA --*/
